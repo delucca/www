@@ -5,18 +5,13 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   grid-gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .avatarImage {
@@ -25,4 +20,24 @@
 
 .customTitle {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .buttons > * {
+    flex: 1;
+  }
+
+  .avatarImage {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .avatarImage {
+    width: 80%;
+  }
 }
