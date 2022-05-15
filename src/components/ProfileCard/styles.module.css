@@ -1,0 +1,28 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+.avatarImage {
+  width: 20%;
+}
+
+.customTitle {
+  margin-bottom: 0;
+}
