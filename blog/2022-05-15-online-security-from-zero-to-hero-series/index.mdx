@@ -1,0 +1,89 @@
+---
+slug: segurança-online-do-nada-ao-tudo
+title: Segurança online - Do nada ao tudo
+authors: [delucca]
+tags: [seguranca-online-do-nada-ao-tudo, seguranca, internet]
+---
+
+import {SecuritySeriesNewsletterForm} from '@site/src/components/SecuritySeriesNewsletterForm';
+
+Este post é o início de [uma série de posts sobre segurança online](/blog/tags/seguranca-online-do-nada-ao-tudo) onde irei guiar você através de um passo-a-passo sobre como aumentar a sua segurança online. A ideia dessa série é que, partindo da estaca 0 e sem nenhuma medida de segurança, você consiga ir adicionando uma nova camada de proteção por post 😊
+
+Decidi construir essa série dessa forma, pois segurança hoje em dia é algo bastante individual. Você não deve tentar reproduzir exatamente a forma como alguém se protege, mas sim entender onde você está vulnerável e ser capaz de adotar as medidas que fizerem sentido pra você 🤗
+
+Por exemplo, se você trabalha gerenciando a infraestrutura de uma grande empresa, é muito provável que você precise de muito mais segurança que uma pessoa trabalhando em alguma função que não tenha tantos acessos sensíveis.
+
+Acho legal também comentar que, há algum tempo atrás, [eu fiz uma breve thread no Twitter](https://twitter.com/deluccadev/status/1522547623298744320) falando um pouco sobre como eu me protejo hoje em dia. Fiquei bem impressionado com a quantidade de pessoas que vieram me pedir ajuda e, por conta disso, decidi criar essa série. A tendência é que as medidas de segurança se tornem mais complexas a cada post da série, portanto sugiro que você vá até onde se sentir confortável.
+
+## Artigos nessa série
+
+1. [Segurança online - Do nada ao tudo](/blog/segurança-online-do-nada-ao-tudo)
+
+## Porquê segurança online é importante
+
+Eu comecei a utilizar a internet na década de 90. Me lembro claramente que eu só usava ela pra três coisas:
+<!-- truncate -->
+
+1. Jogava com meus amigos
+2. Pesquisava coisas pra escola
+3. Falava com pessoas no ICQ e bate-papos online
+
+Lembro, também, que eu não entendia nada de computador. Sempre que eu criava uma conta eu usava como senha minha data de aniversário, porque quando criei minha primeira conta meu primo (que me ensinou a usar o computador) me disse:
+
+> "Use uma senha fácil, pra não ter risco de esquecer"
+
+Todas as contas que eu tinha (que não eram muitas) eram criadas com essa senha.
+
+Um belo dia, enquanto estava jogando, encontrei uma pessoa no jogo que prometeu me dar um prêmio. Eu era bem criança e bastante inocente, e o rapaz me fez só algumas perguntas que pareciam bestas: minha cor favorita, data de nascimento, nome, sobrenome e e-mail. Como eu era muito inocente, respondi tudo que ele perguntou e, no dia seguinte, quando voltei pro jogo vi que tudo que eu tinha salvo lá tinha sido roubado.
+
+Demorou bastante pra eu entender o que aconteceu, mas era bem óbvio: com algumas poucas informações sobre mim ele invadiu minha conta e roubou tudo que eu tinha lá.
+
+Agora eu digo, **o que teria acontecido comigo se fosse hoje em dia?**
+
+Naquela época, eu perdi só alguns itens de um jogo, e nada mais. Agora imagina se ele tivesse entrado em minha conta de e-mail hoje? Não seria apenas alguns itens que ele roubaria de mim, mas basicamente qualquer coisa que ele quisesse. Hoje, toda a nossa vida está na internet. Alguém invadir você é a mesma coisa que alguém ter acesso a sua vida inteira.
+
+> Hoje, toda a nossa vida está na internet. Alguém invadir você é a mesma coisa que alguém ter acesso a sua vida inteira.
+
+Pra muita gente isso já é bem claro. O aumento no número de pessoas sendo invadidas, amigos e familiares sofrendo golpes, notícias cada vez mais assustadoras de pessoas que perdem uma quantidade grande de dinheiro. Tudo isso faz com que a gente fique bastante preocupado e pensando em se proteger cada vez mais. Mas, ainda assim, muita gente ainda não se protege adequadamente.
+
+> Algumas das senhas mais comuns no Brasil são: `123456`, `Brasil`, `senha` e `10203`.
+>
+> — [Fonte](https://olhardigital.com.br/2022/05/05/seguranca/dia-da-senha-estas-sao-as-dez-senhas-mais-comuns-no-brasil-nao-use-elas/)
+
+## Qual é o dano que você pode causar
+
+Eu penso que muitas pessoas ainda insistem em não se proteger adequadamente pelos seguintes motivos:
+
+- Adotar medidas de segurança dá trabalho
+- Pensam que o risco de acontecer algo com elas é baixo
+- **Pensam que, mesmo se acontecer, não vai ser nada grave**
+
+E eu destaquei esse último, porque esse (ao meu ver) é onde as pessoas se enganam. De fato, adotar medidas de segurança dá trabalho e sim, o risco de acontecer algo especificamente com você pode ser baixo dependendo do quanto você está exposto, porém mesmo que você não seja rico, ou não tenha nada muito importante em suas contas, invadir você não significa apenas que suas coisas foram roubadas, significa que **sua identidade foi sequestrada**.
+
+Um tipo de golpe bem comum que tem acontecido no WhatsApp deixa isso bem claro. A pessoa consegue acesso a sua conta do WhatsApp e, por ela, passa a pedir dinheiro emprestado pra pessoas que você tem na sua lista de contatos. Esse é um tipo de golpe bem efetivo, pois dependendo da situação e da velocidade, alguma pessoa que gosta de você pode ser enganada e dar dinheiro para o criminoso.
+
+Esse tipo de golpe é também muito utilizado quando alguma pessoa busca invadir uma empresa. Pense assim: se alguém quiser invadir a empresa que você trabalha, é mais fácil tentar invadir os servidores da empresa? Ou tentar invadir você, se passar por você para, assim, invadir a empresa?
+
+> Se alguém quiser invadir a empresa que você trabalha, é mais fácil tentar invadir os servidores da empresa? Ou tentar invadir você, se passar por você para, assim, invadir a empresa?
+
+Quando você começa a perceber isso, começa a ficar claro que você ser invadido não significa só perder o que você tem. Ter sua conta do banco e seu dinheiro roubados já é horrível, agora imagina se isso se ampliar para roubar também seus amigos e familiares, ou até mesmo a empresa que você trabalha.
+
+## Até onde eu estou disposto a me proteger
+
+Outra coisa que vejo bastante é pessoas achando que **se proteger dá trabalho demais**, ou pessoas que se assustam, fazem um monte de coisa pra se proteger e, depois, desistem de tudo por ser difícil demais. Isso é algo bem comum, pois de fato implementar medidas de segurança é algo difícil, que dá trabalho, e reduz seu conforto. Por isso eu sempre sugiro que **você seja sua própria régua**. Não implemente medidas de segurança além do que você tolera, e saiba qual o seu limite.
+
+> Não implemente medidas de segurança além do que você tolera, e saiba qual o seu limite.
+
+Cada medida que você usa vai, necessariamente, tirar uma "camada de conforto" da sua vida. Utilizar uma autenticação de dois fatores (não se preocupe, depois vou explicar o que é isso), por exemplo, faz com que acessar a conta seja mais difícil não só para um invasor, mas pra você também. Por conta disso estou escrevendo essa série dessa forma, com uma dica por post. Assim você pode ir prosseguindo, passo-a-passo, aplicando as medidas que servirem para você 💪
+
+## Onde eu preciso melhorar
+
+Por fim, essa é a pergunta que você precisará fazer a si mesmo em todos os novos posts: "eu preciso melhorar nisso?". Entenda o que você estará abrindo mão, sabendo quanto de segurança vocês estará ganhando em troca.
+
+Cada publicação nessa série será um nova possibilidade de melhoria. Elas serão feitas de forma progressiva, onde o primeiro post será a medida mais simples, que indico pra todo mundo, enquanto o último será o mais complexo, que só fará sentido para quem quiser se preocupar muito com segurança. Essa ordem é totalmente pessoal, com base no que **eu julgo** como mais relevante pra seguraça, então não se assuste se algumas pessoas discordarem 😆
+
+Vejo você em breve! 🤓
+
+---
+
+<SecuritySeriesNewsletterForm />

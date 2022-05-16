@@ -64,11 +64,11 @@
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Newest post",
+    "message": "Previous post",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Oldest post",
+    "message": "Next post",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
@@ -229,5 +229,13 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "securityNewsletter.title": {
+    "message": "Signup for news about this series",
+    "description": "The security newsletter component title"
+  },
+  "securityNewsletter.description": {
+    "message": "Do you want to receive news about this series? Fill the form below and for every new article on this series I'm going to notify you on your e-mail",
+    "description": "The security newsletter component description"
   }
 }
