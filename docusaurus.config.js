@@ -7,7 +7,7 @@ const config = {
   tagline: 'Software Architect',
   url: 'https://delucca.dev',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
