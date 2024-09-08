@@ -24,14 +24,14 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 export default function ClientsSlideshow(): JSX.Element {
   const {codeTranslations} = useDocusaurusContext();
   const logos = [
+    bosch,
+    mmm,
     quintoandar,
     neon,
     clickup,
     nestjs,
     udacity,
     pepsi,
-    mmm,
-    bosch,
     privalia,
     unilever,
     dhl,
