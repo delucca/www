@@ -237,5 +237,13 @@
   "securityNewsletter.description": {
     "message": "Você quer receber novos artigos dessa série? Preencha o formulário abaixo e eu irei te enviar um e-mail sempre que publicar um novo artigo nessa série",
     "description": "The security newsletter component description"
+  },
+  "buttons.resume": {
+    "message": "Currículo",
+    "description": "The label of the button to download the resume"
+  },
+  "headings.clients": {
+    "message": "Com quem já trabalhei",
+    "description": "The title that presents all the companies I've worked with so far"
   }
 }

@@ -1,10 +1,12 @@
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+import {themes as prismThemes} from 'prism-react-renderer';
+
+const darkCodeTheme = prismThemes.dracula;
+const lightCodeTheme = prismThemes.github;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'delucca',
-  tagline: 'Software Architect',
+  title: 'Daniel De Lucca',
+  tagline: 'Lead Software Architect',
   url: 'https://delucca.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',

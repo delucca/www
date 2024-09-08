@@ -237,5 +237,13 @@
   "securityNewsletter.description": {
     "message": "Do you want to receive news about this series? Fill the form below and for every new article on this series I'm going to notify you on your e-mail",
     "description": "The security newsletter component description"
+  },
+  "buttons.resume": {
+    "message": "Resume",
+    "description": "The label of the button to download the resume"
+  },
+  "headings.clients": {
+    "message": "Who I've Worked With",
+    "description": "The title that presents all the companies I've worked with so far"
   }
 }

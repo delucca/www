@@ -1,6 +1,7 @@
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import AvatarImage from '@site/static/img/avatar.jpg';
+import Resume from '@site/static/pdf/resume.pdf';
 import clsx from 'clsx';
 import React from 'react';
 import styles from './styles.module.css';
@@ -11,11 +12,7 @@ export default function ProfileCard(): JSX.Element {
     <section className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <picture>
-          <img
-            src={AvatarImage}
-            alt={codeTranslations['avatar.alt']}
-            className={styles.avatarImage}
-          />
+          <img src={AvatarImage} className={styles.avatarImage} />
         </picture>
 
         <h1 className={`hero__title ${styles.customTitle}`}>
@@ -40,7 +37,7 @@ export default function ProfileCard(): JSX.Element {
             className="button button--secondary button--lg"
             to={siteConfig.customFields.twitterURL as string}
           >
-            Twitter
+            X
           </Link>
           <Link
             className="button button--secondary button--lg"
@@ -53,6 +50,10 @@ export default function ProfileCard(): JSX.Element {
             to={`mailto:${siteConfig.customFields.email as string}`}
           >
             Email
+          </Link>
+
+          <Link className="button button--secondary button--lg" to={Resume}>
+            {codeTranslations['buttons.resume']}
           </Link>
         </div>
       </div>
