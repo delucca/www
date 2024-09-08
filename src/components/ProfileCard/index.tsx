@@ -52,9 +52,9 @@ export default function ProfileCard(): JSX.Element {
             Email
           </Link>
 
-          <Link className="button button--secondary button--lg" to={Resume}>
+          <a className="button button--secondary button--lg" href={Resume}>
             {codeTranslations['buttons.resume']}
-          </Link>
+          </a>
         </div>
       </div>
     </section>
