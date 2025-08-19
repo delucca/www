@@ -1,6 +1,6 @@
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import AvatarImage from '@site/static/img/avatar.png';
+import AvatarImage from '@site/static/img/avatar.jpg';
 import Resume from '@site/static/pdf/resume.pdf';
 import clsx from 'clsx';
 import React from 'react';

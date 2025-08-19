@@ -6,7 +6,7 @@ const lightCodeTheme = prismThemes.github;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Daniel De Lucca',
-  tagline: 'Lead Software Architect',
+  tagline: 'Staff Software Engineer',
   url: 'https://delucca.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -80,8 +80,8 @@ const config = {
 
   customFields: {
     email: 'www@delucca.dev',
-    companyName: 'Trilon',
-    companyURL: 'https://trilon.io',
+    companyName: 'DoorDash',
+    companyURL: 'https://doordash.com',
     githubURL: 'https://github.com/delucca',
     twitterURL: 'https://twitter.com/deluccadev',
     linkedinURL: 'https://linkedin.com/in/danieldelucca',

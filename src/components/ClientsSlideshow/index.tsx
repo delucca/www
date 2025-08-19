@@ -19,6 +19,7 @@ import mmm from '@site/static/img/logos/mmm.png';
 import pepsi from '@site/static/img/logos/pepsi.png';
 import udacity from '@site/static/img/logos/udacity.png';
 import nestjs from '@site/static/img/logos/nestjs.png';
+import doordash from '@site/static/img/logos/doordash.png';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export default function ClientsSlideshow(): JSX.Element {
@@ -26,9 +27,10 @@ export default function ClientsSlideshow(): JSX.Element {
   const logos = [
     bosch,
     mmm,
-    quintoandar,
+    doordash,
     neon,
     clickup,
+    quintoandar,
     nestjs,
     udacity,
     pepsi,
